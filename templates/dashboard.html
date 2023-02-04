@@ -9,7 +9,8 @@
 
 	<body>
 		<h1>Hello you are logged in.</h1>
+		<label>Welcome {{current_user.FName}} {{current_user.LName}}!</label><br>
+		<label>Email address on file: {{current_user.email}}</label><br>
 		<a href="{{url_for('logout')}}">Logout</a>
 	</body>
-	</html
-
+	</html>
